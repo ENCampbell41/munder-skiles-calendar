@@ -226,6 +226,8 @@
   tr.seasonal td.cell{background:var(--c-neutral);}
   tr.events td.cell{background:var(--c-neutral);}
   tr.eblast td.cell{background:#fff;}
+  tr.eblast2 .row-label{background:#948a72;}
+  tr.eblast2 td.cell{background:#e8e0d4;}
 
   /* Elevate Events row */
   tr.events{
@@ -583,6 +585,22 @@
         <td class="cell"><div class="cell-content" data-row="eblast" data-col="11"></div></td>
       </tr>
 
+      <tr class="eblast2">
+        <td class="row-label">Eblast 2<span class="rl-tag">bi-monthly</span></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="0"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="1"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="2"></div></td>
+        <td class="cell lead-window"><div class="cell-content" data-row="eblast2" data-col="3"></div></td>
+        <td class="cell lead-window"><div class="cell-content" data-row="eblast2" data-col="4"></div></td>
+        <td class="cell lead-window"><div class="cell-content" data-row="eblast2" data-col="5"></div></td>
+        <td class="cell lead-window"><div class="cell-content" data-row="eblast2" data-col="6"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="7"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="8"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="9"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="10"></div></td>
+        <td class="cell"><div class="cell-content" data-row="eblast2" data-col="11"></div></td>
+      </tr>
+
     </tbody>
   </table>
   </div>
@@ -632,7 +650,7 @@
 
 <script>
 const data = {};
-const ROWS = ['events','product','material','seat','garden','featured','seasonal','eblast'];
+const ROWS = ['events','product','material','seat','garden','featured','seasonal','eblast','eblast2'];
 
 // Pre-populate data from screenshot
 const initialData = {
